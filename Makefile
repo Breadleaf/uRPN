@@ -3,3 +3,6 @@ INPUTS := $(wildcard $(ROOT)/src/*.c)
 
 all:
 	clang $(INPUTS)
+
+deep_clean:
+	git clean -Xdi
