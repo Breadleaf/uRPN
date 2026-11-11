@@ -1,3 +1,7 @@
-librpn_amalgamated.*
+# test / exec stuff
 a.out
+app
+# library stuff
 librpn.o
+librpn.a
+librpn_amalgamated.*
